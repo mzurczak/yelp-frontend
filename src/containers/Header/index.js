@@ -19,10 +19,10 @@ const styles = {
 class Header extends Component {
 
   handleHomePage = () => {
-    this.props.dispatch(fetchRestaurantList())
-    .then(()=>{
+    // this.props.dispatch(fetchRestaurantList())
+    // .then(()=>{
       this.props.history.push('/');
-    })
+    // })
   }
   
   handleAboutPage = () => {

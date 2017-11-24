@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 
 import Header from '../../containers/Header';
-import RestaurantCard from '../../RestaurantCard';
+import RestaurantCard from '../../containers/RestaurantCard';
 import ReviewList from '../../components/ReviewList';
 
 import './index.css';
