@@ -1,0 +1,19 @@
+.WelcomeContainer {
+  border: solid 0.5px yellow;
+  background-color: lightyellow;
+  width: 80%;
+  margin: auto;
+  margin-top: 20px;
+  padding: 30px;
+}
+
+.WelcomeContainer-title {
+  color: rgba(255, 0, 0, 1);
+  font-size: 25px
+}
+
+.WelcomeContainer-intro {
+  line-height: 0.1;
+  font-size: 20px;
+  
+}
