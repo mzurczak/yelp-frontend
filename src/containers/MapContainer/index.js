@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { Map as ExampleMap, Marker, GoogleApiWrapper} from 'google-maps-react';
-import Map from '../../components/Map'
+// import Map from '../../components/Map'
 import './index.css'
 
-import { fetchCoordinates } from '../../store/actions'
+// import { fetchCoordinates } from '../../store/actions'
 
 const style = {
   width: '19%',

@@ -110,21 +110,6 @@ class EditUser extends Component {
       style = { styles.activeButton }
       onClick = { this.handleEdit }
     />)
-    
-    const deleteButton = (
-      <FlatButton 
-      label="Delete account"  
-      style = { styles.deleteButton }
-      onClick = { this.handleEdit }
-    />)
-  
-    const inactiveButton = (
-      <FlatButton 
-      label=" "  
-      disabled={true}
-    />)
-  
-    const renderButton =  activeButton;
 
     return (
       <div>

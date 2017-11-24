@@ -7,8 +7,6 @@ import ReviewList from '../../components/ReviewList';
 
 import './index.css';
 
-import { fetchRestaurantList } from '../../store/actions'
-
 class RestaurantPage extends Component {
 
   render(){

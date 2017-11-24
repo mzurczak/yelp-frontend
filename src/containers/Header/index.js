@@ -5,7 +5,6 @@ import { withRouter } from 'react-router-dom'
 
 import './index.css';
 import { logOut } from '../../store/actions';
-import { fetchRestaurantList} from '../../store/actions'
 import SearchBar from '../Search_Bar';
 
 

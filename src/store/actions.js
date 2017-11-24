@@ -109,16 +109,15 @@ export const fetchUser = () => (dispatch) => {
 }
 
 export const fetchEditUser = (newData, userId) => () => {
-  console.log(userId);
   const tokenJSON = localStorage.getItem('token');
   const token = JSON.parse(tokenJSON);
   if (token){
     const myHeaders = new Headers({
       'Content-Type': 'application/json',
       Authorization: `Bearer ${ token }`,
-      'Access-Control-Allow-Origin': true,
-      'Access-Control-Allow-Origin': 'http://localhost:3000',
-      'Access-Control-Allow-Credentials': true
+      // 'Access-Control-Allow-Origin': true,
+      // 'Access-Control-Allow-Origin': 'http://localhost:3000',
+      // 'Access-Control-Allow-Credentials': true
     });
     
     const config = {

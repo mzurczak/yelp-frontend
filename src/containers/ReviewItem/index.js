@@ -61,7 +61,7 @@ class ReviewItem extends Component {
             readOnly = { true }
             max = { 5 }
           />
-          { /*renderDelete() */}
+          { renderDelete() }
         </div>
       <ListItem
         primaryText =  { 
@@ -87,4 +87,4 @@ const mapStateToProps = ( {userReducer} ) => {
     user: userReducer.userInfo
   })
 }
-export default connect()(withRouter(ReviewItem));
+export default connect(mapStateToProps)(withRouter(ReviewItem));
